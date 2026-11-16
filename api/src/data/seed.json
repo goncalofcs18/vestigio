@@ -1,0 +1,366 @@
+{
+  "places": [
+    {
+      "id": "estacao",
+      "name": "Antiga Estação Ferroviária",
+      "category": "monumento",
+      "latitude": 40.643461,
+      "longitude": -8.6405,
+      "description": "O edifício da antiga estação é um dos postais da cidade, revestido por painéis de azulejo azul e branco que retratam paisagens, monumentos e costumes da região.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Esta%C3%A7%C3%A3o%20Ferrovi%C3%A1ria%20de%20Aveiro%20%281%29.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "wikidata": "Q800417"
+    },
+    {
+      "id": "se",
+      "name": "Sé de Aveiro",
+      "category": "igreja",
+      "latitude": 40.639722,
+      "longitude": -8.650278,
+      "description": "A catedral da cidade ocupa a antiga igreja do convento dominicano, fundado no século XV, e reúne vários séculos de alterações e estilos.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jesukristo%20gurutze%20bidean%20Aveiroko%20katedralean.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "wikidata": "Q3663664"
+    },
+    {
+      "id": "misericordia",
+      "name": "Igreja da Misericórdia",
+      "category": "igreja",
+      "latitude": 40.640679,
+      "longitude": -8.653377,
+      "description": "Na Praça da República, ao lado dos Paços do Concelho, destaca-se pelo portal monumental e pela fachada revestida a azulejo.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Igreja%20da%20Miseric%C3%B3rdia%20Aveiro.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "wikidata": "Q66813018"
+    },
+    {
+      "id": "carmo",
+      "name": "Igreja do Carmo",
+      "category": "igreja",
+      "latitude": 40.644431,
+      "longitude": -8.648134,
+      "description": "Igreja do antigo convento carmelita, conhecida pelo interior rico em talha dourada.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Igreja%20do%20Convento%20do%20Carmo.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "wikidata": "Q66813019"
+    },
+    {
+      "id": "sao-goncalinho",
+      "name": "Capela de São Gonçalinho",
+      "category": "igreja",
+      "latitude": 40.64334,
+      "longitude": -8.655155,
+      "description": "Pequena capela no bairro da Beira-Mar. Na festa de São Gonçalinho, em janeiro, atiram-se cavacas do alto da capela para a multidão.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Capela%20sao%20goncalinho.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "wikidata": "Q9695881"
+    },
+    {
+      "id": "sao-joao-evangelista",
+      "name": "Igreja de São João Evangelista",
+      "category": "igreja",
+      "latitude": 40.6383,
+      "longitude": -8.6534,
+      "description": "Igreja do centro de Aveiro, junto ao Tribunal, classificada como património cultural.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Igreja%20das%20Carmelitas%20-%20Aveiro.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "wikidata": "Q20978132"
+    },
+    {
+      "id": "santo-antonio",
+      "name": "Igreja de Santo António",
+      "category": "igreja",
+      "latitude": 40.635707,
+      "longitude": -8.652551,
+      "description": "Igreja do antigo convento franciscano, junto ao Parque Infante D. Pedro.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Igreja%20do%20convento%20de%20sto%20Ant%C3%B3nio.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "wikidata": "Q39713792"
+    },
+    {
+      "id": "vera-cruz",
+      "name": "Igreja da Vera Cruz",
+      "category": "igreja",
+      "latitude": 40.64317,
+      "longitude": -8.65299,
+      "description": "Igreja paroquial da zona da Beira-Mar, um dos bairros mais antigos e característicos da cidade.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Igreja%20Paroquial%20de%20Vera%20Cruz%20006.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "wikidata": "Q76957563"
+    },
+    {
+      "id": "barrocas",
+      "name": "Capela do Senhor das Barrocas",
+      "category": "igreja",
+      "latitude": 40.647265,
+      "longitude": -8.641427,
+      "description": "Capela barroca do século XVIII, uma das mais singulares do património religioso de Aveiro.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Capela%20do%20Senhor%20das%20Barrocas.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "wikidata": "Q9696120"
+    },
+    {
+      "id": "museu-aveiro",
+      "name": "Museu de Aveiro / Santa Joana",
+      "category": "museu",
+      "latitude": 40.639425,
+      "longitude": -8.651106,
+      "description": "Instalado no antigo Mosteiro de Jesus, onde viveu a princesa Santa Joana, guarda o seu túmulo e uma importante coleção de arte barroca.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosteiro%20de%20Jesus%20-%20museu%20de%20Aveiro.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "wikidata": "Q99300945"
+    },
+    {
+      "id": "museu-arte-nova",
+      "name": "Museu Arte Nova",
+      "category": "museu",
+      "latitude": 40.641846,
+      "longitude": -8.6556,
+      "description": "Ocupa a Casa do Major Pessoa, um dos edifícios mais emblemáticos da Arte Nova em Aveiro, e conta como este estilo marcou a cidade.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Casa%20do%20Major%20Pessoa%20%28frente%29.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "wikidata": "Q123586657"
+    },
+    {
+      "id": "museu-cidade",
+      "name": "Museu da Cidade",
+      "category": "museu",
+      "latitude": 40.641651,
+      "longitude": -8.654508,
+      "description": "Conta a história de Aveiro, da relação com a ria e o sal até à cidade de hoje.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Museu%20da%20Cidade%20de%20Aveiro%2001.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "wikidata": "Q53580592"
+    },
+    {
+      "id": "cooperativa",
+      "name": "Casa da Cooperativa Agrícola",
+      "category": "arte_nova",
+      "latitude": 40.641808,
+      "longitude": -8.654328,
+      "description": "Edifício Arte Nova com a fachada coberta de azulejos de motivos florais, um dos mais fotografados da cidade.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aveiro%20Casa%20da%20Cooperativa%20Agr%C3%ADcola%20853.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "wikidata": "Q9698172"
+    },
+    {
+      "id": "pompeu-figueiredo",
+      "name": "Residência Pompeu Figueiredo",
+      "category": "arte_nova",
+      "latitude": 40.644985,
+      "longitude": -8.647942,
+      "description": "Moradia do início do século XX, exemplo da arquitetura Arte Nova que marcou a burguesia aveirense.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Edif%C3%ADcio%20de%20Pompeu%20Figueiredo%2C%20casa%20da%20rua%20do%20Carmo.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "wikidata": "Q66813022"
+    },
+    {
+      "id": "silva-rocha",
+      "name": "Residência Silva Rocha",
+      "category": "arte_nova",
+      "latitude": 40.644615,
+      "longitude": -8.648257,
+      "description": "Moradia Arte Nova do início do século XX, vizinha da Residência Pompeu Figueiredo.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Resid%C3%AAncia%20do%20Arquitecto%20Francisco%20Augusto%20Silva%20Rocha2.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "wikidata": "Q66813023"
+    },
+    {
+      "id": "pensao-ferro",
+      "name": "Pensão Ferro",
+      "category": "arte_nova",
+      "latitude": 40.64241,
+      "longitude": -8.654411,
+      "description": "Edifício Arte Nova no centro da cidade, com fachada decorada e trabalhos em ferro e azulejo.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Casa%20da%20Rua%20Tenente%20Resende.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "wikidata": "Q66813032"
+    },
+    {
+      "id": "quatro-estacoes",
+      "name": "Casa das Quatro Estações",
+      "category": "arte_nova",
+      "latitude": 40.643185,
+      "longitude": -8.651466,
+      "description": "Casa da Rua Manuel Firmino com painéis de azulejo que representam as quatro estações do ano.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Casa%20na%20Rua%20Manuel%20Firmino%20com%20pain%C3%A9is%20das%20Quatro%20Esta%C3%A7%C3%B5es2.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "wikidata": "Q66813027"
+    },
+    {
+      "id": "florentino",
+      "name": "Residência Florentino Vicente Ferreira",
+      "category": "arte_nova",
+      "latitude": 40.640523,
+      "longitude": -8.655565,
+      "description": "Moradia do centro de Aveiro classificada como património cultural, do período em que a Arte Nova chegou à cidade.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Resid%C3%AAncia%20Florentino%20Vicente%20Ferreira.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "wikidata": "Q98349128"
+    },
+    {
+      "id": "camara",
+      "name": "Paços do Concelho",
+      "category": "monumento",
+      "latitude": 40.640305,
+      "longitude": -8.653532,
+      "description": "Edifício da Câmara Municipal, na Praça da República, no coração da cidade.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20town%20hall%20%2827063176242%29.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "wikidata": "Q72401257"
+    },
+    {
+      "id": "teatro-aveirense",
+      "name": "Teatro Aveirense",
+      "category": "monumento",
+      "latitude": 40.640144,
+      "longitude": -8.654153,
+      "description": "Teatro histórico da cidade, inaugurado no final do século XIX e ainda hoje uma das principais salas de espetáculo de Aveiro.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aveirense.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "wikidata": "Q10378809"
+    },
+    {
+      "id": "casa-arcos",
+      "name": "Casa dos Arcos",
+      "category": "monumento",
+      "latitude": 40.641544,
+      "longitude": -8.652685,
+      "description": "Antiga Capitania do Porto, junto ao Canal Central, reconhecível pelas arcadas do piso térreo.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Antiga%20Capitania%20do%20Porto%20de%20Aveiro%205.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "wikidata": "Q66813021"
+    },
+    {
+      "id": "palheiros",
+      "name": "Palheiros do Canal de São Roque",
+      "category": "monumento",
+      "latitude": 40.646738,
+      "longitude": -8.651462,
+      "description": "Antigos armazéns onde se guardava o sal das marinhas da ria, testemunho de uma das atividades que fizeram a cidade.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Conjunto%20de%20Armaz%C3%A9ns%20do%20Sal%20do%20Canal%20de%20S%C3%A3o%20Roque%20ou%20Palheiros%20de%20sal%20do%20Canal%20de%20S%C3%A3o%20Roque%20-%20envolvente%202.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "wikidata": "Q66813029"
+    },
+    {
+      "id": "salineira",
+      "name": "A Salineira",
+      "category": "monumento",
+      "latitude": 40.641412,
+      "longitude": -8.653927,
+      "description": "Estátua de homenagem às mulheres que trabalhavam nas salinas e transportavam o sal.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20Salineira.JPG?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "wikidata": "Q136405431"
+    },
+    {
+      "id": "carcavelos",
+      "name": "Ponte de Carcavelos",
+      "category": "monumento",
+      "latitude": 40.645229,
+      "longitude": -8.654616,
+      "description": "Ponte em arco sobre o Canal de São Roque, junto às antigas marinhas de sal.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aveiro%20-%20Portugal%20%2834921184790%29.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "wikidata": "Q124336926"
+    },
+    {
+      "id": "ponte-circular",
+      "name": "Ponte Pedonal Circular",
+      "category": "monumento",
+      "latitude": 40.6442,
+      "longitude": -8.65639,
+      "description": "Ponte pedonal contemporânea em forma de anel, que liga as margens do canal num percurso circular.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aveiro%20circular%20pedestrian%20bridge.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "wikidata": "Q7228106"
+    },
+    {
+      "id": "coreto",
+      "name": "Coreto do Parque",
+      "category": "monumento",
+      "latitude": 40.636379,
+      "longitude": -8.653199,
+      "description": "Coreto do Parque Infante D. Pedro, palco de concertos e encontros ao ar livre desde o início do século XX.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Coreto%20no%20Parque%20Municipal%20em%20Aveiro.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "wikidata": "Q98706374"
+    },
+    {
+      "id": "cine-teatro-avenida",
+      "name": "Cine-Teatro Avenida",
+      "category": "monumento",
+      "latitude": 40.642139,
+      "longitude": -8.649475,
+      "description": "Antiga sala de cinema e espetáculos na Avenida Dr. Lourenço Peixinho.",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Edif%C3%ADcio%20Avenida%20003.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "wikidata": "Q50402682"
+    }
+  ],
+  "collections": [
+    {
+      "id": "arte-nova",
+      "name": "Arte Nova",
+      "description": "Os edifícios que fizeram de Aveiro uma referência da Arte Nova em Portugal.",
+      "places": [
+        "museu-arte-nova",
+        "cooperativa",
+        "pensao-ferro",
+        "quatro-estacoes",
+        "pompeu-figueiredo",
+        "silva-rocha",
+        "florentino"
+      ]
+    },
+    {
+      "id": "beira-ria",
+      "name": "À beira da ria",
+      "description": "Canais, pontes e a memória do sal.",
+      "places": [
+        "salineira",
+        "casa-arcos",
+        "ponte-circular",
+        "carcavelos",
+        "palheiros",
+        "sao-goncalinho"
+      ]
+    },
+    {
+      "id": "igrejas",
+      "name": "Igrejas e capelas",
+      "description": "Do convento dominicano às capelas dos bairros antigos.",
+      "places": [
+        "se",
+        "misericordia",
+        "carmo",
+        "sao-joao-evangelista",
+        "santo-antonio",
+        "vera-cruz",
+        "barrocas"
+      ]
+    },
+    {
+      "id": "centro",
+      "name": "Centro da cidade",
+      "description": "Praças, teatros e edifícios que contam a vida da cidade.",
+      "places": [
+        "camara",
+        "teatro-aveirense",
+        "estacao",
+        "coreto",
+        "cine-teatro-avenida"
+      ]
+    },
+    {
+      "id": "museus",
+      "name": "Museus",
+      "description": "Três museus para conhecer a história e a arte de Aveiro.",
+      "places": [
+        "museu-aveiro",
+        "museu-arte-nova",
+        "museu-cidade"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: vestigio
+      POSTGRES_PASSWORD: vestigio
+      POSTGRES_DB: vestigio
+    ports:
+      - "5432:5432"
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U vestigio"]
+      interval: 3s
+      retries: 10
+
+  api:
+    build: ./api
+    environment:
+      DATABASE_URL: postgres://vestigio:vestigio@db:5432/vestigio
+      CHECKIN_RADIUS_M: ${CHECKIN_RADIUS_M:-150}
+    ports:
+      - "4000:4000"
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  db-data:

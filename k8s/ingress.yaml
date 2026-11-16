@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: vestigio-api
+  namespace: vestigio
+spec:
+  rules:
+    - host: vestigio.localtest.me
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: vestigio-api
+                port: { number: 80 }

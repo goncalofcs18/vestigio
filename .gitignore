@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.DS_Store
+dist/
+*.zip
+vestigio-passo1-icones/
+k8s/secret.yaml

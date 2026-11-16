@@ -1,0 +1,49 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vestigio-api
+  namespace: vestigio
+spec:
+  replicas: 2
+  selector:
+    matchLabels: { app: vestigio-api }
+  template:
+    metadata:
+      labels: { app: vestigio-api }
+    spec:
+      containers:
+        - name: api
+          image: vestigio-api:latest # troca pela imagem publicada (ex.: ghcr.io/<utilizador>/vestigio-api)
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 4000
+          env:
+            - name: PORT
+              value: "4000"
+            - name: CHECKIN_RADIUS_M
+              value: "150"
+            - name: DATABASE_URL
+              valueFrom:
+                secretKeyRef: { name: vestigio-db, key: DATABASE_URL }
+          readinessProbe:
+            httpGet: { path: /graphql?query=%7B__typename%7D, port: 4000 }
+            initialDelaySeconds: 10
+            periodSeconds: 10
+          livenessProbe:
+            httpGet: { path: /graphql?query=%7B__typename%7D, port: 4000 }
+            initialDelaySeconds: 20
+            periodSeconds: 20
+          resources:
+            requests: { cpu: 50m, memory: 128Mi }
+            limits: { cpu: 500m, memory: 256Mi }
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: vestigio-api
+  namespace: vestigio
+spec:
+  selector: { app: vestigio-api }
+  ports:
+    - port: 80
+      targetPort: 4000

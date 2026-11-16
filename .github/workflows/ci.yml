@@ -1,0 +1,79 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  api:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: api
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: vestigio
+          POSTGRES_PASSWORD: vestigio
+          POSTGRES_DB: vestigio
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U vestigio" --health-interval 3s --health-retries 10
+    env:
+      DATABASE_URL: postgres://vestigio:vestigio@localhost:5432/vestigio
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: api/package-lock.json
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm run db:setup
+      - run: npm test
+
+  app:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm run export:web
+
+  # Publica uma atualização (EAS Update) sempre que há push para main.
+  # Requer o secret EXPO_TOKEN e a variável EXPO_PUBLIC_API_URL no GitHub.
+  update:
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    needs: [api, app]
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app
+    env:
+      EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+      EXPO_PUBLIC_API_URL: ${{ vars.EXPO_PUBLIC_API_URL }}
+    steps:
+      - uses: actions/checkout@v4
+        if: env.EXPO_TOKEN != ''
+      - uses: actions/setup-node@v4
+        if: env.EXPO_TOKEN != ''
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - run: npm ci
+        if: env.EXPO_TOKEN != ''
+      - run: npx eas-cli@latest update --channel preview --message "${{ github.event.head_commit.message }}" --non-interactive
+        if: env.EXPO_TOKEN != ''

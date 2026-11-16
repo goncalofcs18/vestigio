@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: vestigio-api
+    runtime: docker
+    rootDir: api
+    plan: free
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: DATABASE_SSL
+        value: "true"
+      - key: CHECKIN_RADIUS_M
+        value: "150"
