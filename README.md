@@ -57,6 +57,8 @@ cd app && npm run typecheck && npm run lint
 
 ## Deploy
 
+Passo a passo: [docs/deploy.md](docs/deploy.md).
+
 | Parte | Onde | Como |
 |---|---|---|
 | Base de dados | Neon (PostgreSQL) | Criar projeto e copiar a connection string |

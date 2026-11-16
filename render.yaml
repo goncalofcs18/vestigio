@@ -4,6 +4,8 @@ services:
     runtime: docker
     rootDir: api
     plan: free
+    healthCheckPath: /graphql?query=%7B__typename%7D
+    autoDeploy: true
     envVars:
       - key: DATABASE_URL
         sync: false
