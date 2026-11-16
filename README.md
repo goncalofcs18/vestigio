@@ -8,6 +8,12 @@ App mobile para explorar o património de Aveiro. Cada lugar visitado (com check
 
 Os dados vêm da Wikidata (coordenadas e imagens do Wikimedia Commons), com curadoria própria das coleções e descrições.
 
+## Ecrãs
+
+| Explorar | Painel | Coleções |
+|---|---|---|
+| ![Explorar](docs/explorar.jpg) | ![Painel](docs/painel.jpg) | ![Coleções](docs/colecoes.jpg) |
+
 ## Estrutura
 
 ```
@@ -62,6 +68,11 @@ cd app && npm run typecheck && npm run lint
 O mapa nativo usa o react-native-maps: funciona no Expo Go sem configuração, mas para o APK em Android
 é preciso uma chave da Google Maps API (ver a documentação do react-native-maps na Expo).
 Na web, a app mostra a lista de lugares em vez do mapa.
+
+### Azure
+
+Guia para correr a API numa VM Linux em Azure, com Docker, firewall e cópias de segurança: [docs/azure.md](docs/azure.md).
+A imagem da API é publicada no GitHub Container Registry pelo workflow `.github/workflows/docker.yml`.
 
 ### Kubernetes
 

@@ -26,11 +26,11 @@ spec:
               valueFrom:
                 secretKeyRef: { name: vestigio-db, key: DATABASE_URL }
           readinessProbe:
-            httpGet: { path: /graphql?query=%7B__typename%7D, port: 4000 }
+            httpGet: { path: "/graphql?query=%7B__typename%7D", port: 4000 }
             initialDelaySeconds: 10
             periodSeconds: 10
           livenessProbe:
-            httpGet: { path: /graphql?query=%7B__typename%7D, port: 4000 }
+            httpGet: { path: "/graphql?query=%7B__typename%7D", port: 4000 }
             initialDelaySeconds: 20
             periodSeconds: 20
           resources:
