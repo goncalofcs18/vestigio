@@ -2,6 +2,10 @@
 
 App mobile para explorar o património de Aveiro. Cada lugar visitado (com check-in no local) pinta um azulejo do teu painel; completar coleções desbloqueia conquistas.
 
+**Demo:** [vestigioo.netlify.app](https://vestigioo.netlify.app) · **API (GraphiQL):** [vestigio-api.onrender.com/graphql](https://vestigio-api.onrender.com/graphql)
+
+> A API está no plano gratuito do Render: o primeiro pedido pode demorar cerca de 1 minuto. Na web, o check-in só é aceite junto ao lugar (raio de 150 m).
+
 - **App:** React Native com Expo (iOS, Android e web), Expo Router, Apollo Client
 - **API:** Node.js, GraphQL (GraphQL Yoga), PostgreSQL
 - **Infra:** Docker Compose, GitHub Actions (CI + EAS Update), Render, Netlify, EAS Build
